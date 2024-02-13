@@ -1,0 +1,114 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0%;
+  background-color: #61dafb;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.Login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -1px;
+  margin-top: 150px;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.App{
+    background-color: white;
+    min-height: 100%;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: skyblue;
+  text-align: -webkit-center;
+  color: white;
+}
+
+.inputBox{
+  /* display: flex; */
+  margin-left: 26px;
+  margin-top: 17px;
+  /* padding: 15px; */
+  /* width: 600px; */
+  border: 1px solid skyblue;
+  width: 25%;
+  height: 40px;
+  text-indent: 10px;
+}
+
+/* .signup_btn{
+  margin: 25px;
+  padding: 10px;
+  width: 97px;
+  background-color: aqua;
+  border: 1px solid;
+  cursor: pointer;
+  height: 32px;
+  margin-left: 190px;
+  margin-top: 50px;
+} */
+
+.link{
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: black;
+}
